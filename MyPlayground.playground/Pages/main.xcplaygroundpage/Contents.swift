@@ -15,7 +15,13 @@
  */
 // write your code here
 
+func printContinentInfo(continent:String, noOfCountry:Int){
+    print("\(continent) is a continent which contains \(noOfCountry) countries")
+}
 
+var continent = "Asia"
+var noOfCountry = 44
+printContinentInfo(continent, noOfCountry: noOfCountry)
 
 
 /*: question2
@@ -25,7 +31,7 @@ func greeting(name: String, greeting: String) {
     print("\(greeting), \(name)!")
 }
 
-greeting("Danny", "Hello")
+greeting("Danny", greeting: "Hello")
 
 
 
@@ -37,7 +43,7 @@ func daysInMonth(month: String, days: String) {
     print("There are \(days) in \(month)")
 }
 
-daysInMonth("November", days: 30)
+daysInMonth("November", days: "30 days")
 
 
 
@@ -47,6 +53,11 @@ daysInMonth("November", days: 30)
  */
 // write your code here
 
+func beverage(beverage:String, noOfBottles:Int, place:String){
+    print("\(noOfBottles) bottles of \(beverage) on the \(place) wall.")
+}
+
+beverage("Coca Cola", noOfBottles: 10, place: "refrigerator")
 
 
 
